@@ -9,6 +9,7 @@ import javax.persistence.Table;
 @Table(name = "currency_tab")
 public class Currency_TAB {
 
+	
 	@Id 
 	int id;
 	@Column

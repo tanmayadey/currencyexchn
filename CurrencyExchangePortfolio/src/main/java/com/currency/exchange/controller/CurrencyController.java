@@ -32,6 +32,7 @@ public class CurrencyController {
 	 * @return list of data
 	 */
 	
+	
 	@RequestMapping(value = "/councurrencyexchange", method = RequestMethod.GET,produces = MediaType.APPLICATION_JSON_VALUE)
 	public Iterable<Currency_TAB> getCurrencyDifference () {
 		/*Currency_TAB curModel = new Currency_TAB();

@@ -6,6 +6,7 @@ import com.currency.exchange.entity.Currency_TAB;
 
 public class SortByCurrency implements Comparator<Currency_TAB>{
 
+	
 	@Override
 	public int compare(Currency_TAB o1, Currency_TAB o2) {
 		// TODO Auto-generated method stub

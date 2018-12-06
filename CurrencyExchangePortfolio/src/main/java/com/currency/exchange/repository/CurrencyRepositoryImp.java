@@ -9,6 +9,7 @@ import com.currency.exchange.model.CurrencyModel;
 public class CurrencyRepositoryImp implements CurrencyRepository {
 
 	@Override
+	
 	public <S extends Currency_TAB> S save(S entity) {
 		// TODO Auto-generated method stub
 		return null;

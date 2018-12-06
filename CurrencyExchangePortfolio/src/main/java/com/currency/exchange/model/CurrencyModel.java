@@ -7,6 +7,7 @@ public class CurrencyModel {
 	
 	
 	int id;
+	
 	String currency;
 	String time;
 	String price;

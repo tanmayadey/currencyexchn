@@ -12,6 +12,7 @@ import com.currency.exchange.entity.Currency_TAB;
 @Repository
 public interface CurrencyRepository extends CrudRepository<Currency_TAB, Integer> {
 	
+	
 	@Query("SELECT c FROM currency_tab c WHERE c.date = (:date)")
 	
     public List<Currency_TAB> findByDate(@Param("date") String date);
